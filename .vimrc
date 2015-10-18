@@ -207,3 +207,9 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 " mkdir -p ~/.vim/ftplugin
 " wget -O ~/.vim/ftplugin/python_editing.vim http://www.vim.org/scripts/download_script.php?src_id=5492
 set nofoldenable
+
+" vim-flake8
+" cd ~/.vim/bundle
+" git clone git://github.com/nvie/vim-flake8.git
+" To remap <F7> to <F3>
+"" autocmd FileType python map <buffer> <F3> :call Flake8()<CR>
