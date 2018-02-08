@@ -21,7 +21,9 @@ set clipboard=unnamed
 
 
 " Mouse and backspace
-set mouse=a  " on OSX press ALT and click
+"if has('mouse')
+"    set mouse=a  " on OSX press ALT and click
+"endif
 set bs=2     " make backspace behave like normal again
 
 
