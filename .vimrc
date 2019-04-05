@@ -68,6 +68,10 @@ map <Leader>m <esc>:tabnext<CR>
 " map sort function to a key
 vnoremap <Leader>s :sort<CR>
 
+" JSON Formatting
+noremap <Leader>i :%!python -m json.tool<CR>
+vnoremap <Leader>i :%!python -m json.tool<CR>
+inoremap <Leader>i :%!python -m json.tool<CR>
 
 " easier moving of code blocks
 " Try to go into visual mode (v), thenselect several lines of code here and
