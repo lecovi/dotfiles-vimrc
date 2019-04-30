@@ -90,6 +90,17 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+" inoremap <Up> <NOP>
+" inoremap <Down> <NOP>
+" inoremap <Left> <NOP>
+" inoremap <Right> <NOP>
+
+
+" Using Alt+hjkl to move on insert mode
+imap <A-h> <C-o>h
+imap <A-j> <C-o>j
+imap <A-k> <C-o>k
+imap <A-l> <C-o>l
 
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
